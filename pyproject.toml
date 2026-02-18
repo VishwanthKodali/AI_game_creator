@@ -1,0 +1,15 @@
+[project]
+name = "ai-game-creator"
+version = "0.1.0"
+description = "Agentic AI system that designs and generates playable browser games from natural-language input"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.129.0",
+    "langchain-core>=1.2.13",
+    "langchain-openai>=1.1.9",
+    "langgraph>=1.0.8",
+    "pyyaml>=6.0.3",
+    "streamlit>=1.54.0",
+    "uvicorn>=0.40.0",
+]
